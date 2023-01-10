@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -11,8 +12,15 @@ body {
     background: #1F2937;
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 ul {
@@ -69,16 +77,112 @@ ul {
 .button {
     height: 20px;
     width: 60px;
-    background: royalblue;
+    background: #3882F6;
     border: 1px solid royalblue;
     border-radius: 5px;
     color: white;
     padding: 5px 40px;
 }
 
-img {
+img#top {
     max-height: 200px;
     width: auto;
     margin-right: 100px;
 }
 
+.header3 {
+    height: 40vh;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.rand {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.ploop {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.images {
+    max-width: 150px;
+}
+
+img#mid {
+    max-height: 150px;
+    width: auto;
+}
+
+.header4 {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    background-color: #E5E7EB;
+    padding: 30px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.name {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.button2 {
+    height: 20px;
+    width: 60px;
+    background: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 40px;
+}
+
+.header5 {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.h5bg {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    max-height: 10vh;
+    align-self: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    gap: 50px;
+}
+
+.left3 {
+    min-width: 150px;
+}
+
+.bik2 {
+    font-weight: bolder;
+}
+
+.smol2 {
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
